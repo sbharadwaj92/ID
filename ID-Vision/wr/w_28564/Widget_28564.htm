@@ -1,0 +1,21 @@
+<!DOCTYPE HTML><HTML><HEAD><TITLE>Adobe Captivate Widget</TITLE><META NAME="generator" content="Adobe Captivate 6"></META><script type="text/javascript" src="../wr_28087/jquery-1.7.2.js"></script><script type="text/javascript" src="../wr_28087/jquery-ui.js"></script><script type="text/javascript" src="../../assets/js/OpenAjaxManagedHub-all.js"></script><script type="text/javascript">function init(){	hubClient = new OpenAjax.hub.IframeHubClient({HubClient: {onSecurityAlert: function() {}		   }	});	hubClient.connect(function() {		var id = hubClient.getClientID();		hubClient.publish(id+"_loaded","loaded");	});}function deInit() { if(hubClient) { 	hubClient.disconnect(); } } jQuery(document).ready(function() {	init();});</script></HEAD><BODY><body>
+    <div style="position:relative">
+      <canvas id="ex1" width="400" height="400">
+			Your browser does not support the HTML5 canvas tag.
+		</canvas>
+		<div id="iconsDiv" name="iconsDiv" width="400" height="400">
+			<img  src="images/ZoomPlus.png" id="Magnify" name="Magnify"  style="position:absolute; top:360px; left:10px; background-repeat:no-repeat; ; visibility:hidden"></img>
+            <img  src="images/bar.png" id="bar" name="bar"  style="position:absolute; top:368px; left:10px; background-repeat:no-repeat; ; visibility:hidden"></img>
+           <img  src="images/RemoveMagnify.png" id="RemoveMagnify" name="RemoveMagnify"  style="position:absolute; top:360px; left:10px; background-repeat:no-repeat; ; visibility:hidden"></img>
+           
+           
+           <img  src="images/Down.png" id="NavigateDown" name="NavigateDown"  style="position:absolute; top:45px; left:365px; background-repeat:no-repeat; ; visibility:hidden"></img>
+           <img  src="images/Left.png" id="NavigateLeft" name="NavigateLeft"  style="position:absolute; top:25px; left:355px; background-repeat:no-repeat; ; visibility:hidden"></img>
+           <img  src="images/Right.png" id="NavigateRight" name="NavigateRight"  style="position:absolute; top:25px; left:385px; background-repeat:no-repeat; ; visibility:hidden"></img>
+           <img  src="images/Up.png" id="NavigateUp" name="NavigateUp"  style="position:absolute; top:15px; left:365px; background-repeat:no-repeat; ; visibility:hidden"></img>
+          <div id="sliderParent" style="width:100px; position:absolute;">
+           <img  src="images/slider.png" id="slider" name="slider"  style="position:absolute;  background-repeat:no-repeat; visibility:hidden"></img>
+           </div>
+           </div> 
+		</div>
+      </body><script type="text/javascript" src="scripts/imagezoom.js"></script><script type="text/javascript" src="scripts/jquery.ui.touch-punch.min.js"></script></BODY></HTML>
